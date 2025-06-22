@@ -1,0 +1,16 @@
+# フェーズ4: 動きのあった会社・注目銘柄抽出用ライブラリ
+# インストール方法: pip install -r requirements.txt
+
+# 基本ライブラリ
+pandas>=2.0.0
+numpy>=1.24.0
+requests>=2.31.0
+python-dotenv>=1.0.0
+openai>=1.0.0
+
+# 株価・企業情報取得
+yfinance>=0.2.0
+
+# Webスクレイピング
+beautifulsoup4>=4.12.0
+lxml>=4.9.0 

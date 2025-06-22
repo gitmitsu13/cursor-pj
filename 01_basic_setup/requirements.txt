@@ -1,0 +1,19 @@
+# 市場情報自動収集・分析システム用ライブラリ
+# インストール方法: pip install -r requirements.txt
+
+# フェーズ1: マーケットニュースの自動要約とGmail送信システム
+requests>=2.31.0
+openai>=1.0.0
+google-auth-oauthlib>=1.0.0
+google-api-python-client>=2.0.0
+python-dotenv>=1.0.0
+
+# フェーズ2: 経済指標の実績グラフ化
+pandas>=2.0.0
+numpy>=1.24.0
+matplotlib>=3.7.0
+seaborn>=0.12.0
+pandas-datareader>=0.10.0
+
+# フェーズ4: 動きのあった会社のIR・動きと注目銘柄の抽出
+yfinance>=0.2.0 

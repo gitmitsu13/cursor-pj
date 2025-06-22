@@ -1,0 +1,20 @@
+# フェーズ4: 動きのあった会社・注目銘柄抽出 環境変数設定例
+# このファイルを .env にコピーして、実際の値を設定してください
+
+# OpenAI API
+OPENAI_API_KEY=your_openai_api_key_here
+
+# Gmail設定
+GMAIL_USERNAME=your_email@gmail.com
+GMAIL_APP_PASSWORD=your_app_password_here
+RECIPIENT_EMAIL=recipient@example.com
+SENDER_EMAIL=your_email@gmail.com
+
+# システム設定
+LOG_LEVEL=INFO
+
+# 注目銘柄抽出条件
+HOT_STOCK_DAYS=5
+VOLUME_THRESHOLD=2.0
+PRICE_CHANGE_THRESHOLD=0.05
+TARGET_SYMBOLS=7203.T,6758.T,AAPL,MSFT 
